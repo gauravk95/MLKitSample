@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaceDetectionUtil.ScannerActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <com.gauravk.clothifysample.FaceDetectionUtil.common.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.gauravk.clothifysample.FaceDetectionUtil.common.GraphicOverlay
+            android:id="@+id/barcodeOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.gauravk.clothifysample.FaceDetectionUtil.common.CameraSourcePreview>
+
+    <TextView
+        android:id="@+id/detection_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#44000000"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/face_detected"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/preview" />
+</androidx.constraintlayout.widget.ConstraintLayout>
