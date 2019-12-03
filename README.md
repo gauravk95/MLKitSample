@@ -1,10 +1,10 @@
 # MLKitSample - Face Contour Detection
 
-Sample project to show the use of MLKit.
+Sample project to show the use of MLKit. Just playing around.
 
 Helps you to "TRY ON" a sample sunglass in realtime, using the Face Contour Detection and Canvas, to render the Sunglass Image over to the desired area.
 
-NOTE: To run the project you will need to create and add "google-services.json" file, that can be created using Firebase console.
+NOTE: To run the project you will need to create and add `google-services.json` file, that can be created using Firebase console.
 
 ## Demo
 
